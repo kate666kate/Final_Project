@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "isomorphic-unfetch": "^2.1.1",
+    "isomorphic-unfetch": "^4.0.2",
     "next": "^4.2.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
