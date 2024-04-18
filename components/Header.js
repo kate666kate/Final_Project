@@ -24,6 +24,21 @@ const Header = (props) => (
                         </Link>
                     </li>
                     <li className="nav-item">
+                        <Link href="/album-tracks">
+                            <a className="nav-link" style={{ color: 'red', fontSize: '20px', lineHeight: '30px' }}>Album Tracks</a>
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link href="/artist-albums">
+                            <a className="nav-link" style={{ color: 'red', fontSize: '20px', lineHeight: '30px' }}>artist-albums</a>
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link href="/search-artists">
+                            <a className="nav-link" style={{ color: 'red', fontSize: '20px', lineHeight: '30px' }}>Search Artists</a>
+                        </Link>
+                    </li>
+                    <li className="nav-item">
                         <Link href="/spotify">
                             <a className="nav-link" style={{ color: 'red', fontSize: '20px', lineHeight: '30px' }}>Sign In</a>
                         </Link>
