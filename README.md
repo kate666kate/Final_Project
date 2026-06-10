@@ -1,38 +1,78 @@
-# spotifyNext
-spotify next is an app that uses react, and the spotify web api to connect to spotify and make calls to the api to get user playlist data and search spotify for artists, albums, and tracks.
+# Spotify Next.js API Interface
 
-## Installation
+A front-end portfolio project built with **React**, **Next.js**, **Express** and the **Spotify Web API**. The project demonstrates an API-driven user journey where a user authenticates with Spotify, moves through a routed interface, and interacts with music data through a web application.
 
-1. Fork it!
-2. Install npm modules: `cd react-next npm i`
-3. Start webpack dev sever: `npm start`
-4. Your app should now be running on [localhost:8080](http://localhost:8080/).
+This project is relevant to front-end interface roles because it shows practical experience with component-based UI structure, routing, API authentication flow, server-backed Next.js setup, and user-facing interaction design.
 
+## Key Features
 
-## Deploying to Heroku
+- React-based user interface
+- Next.js page routing
+- Express server for running the Next.js application
+- Spotify Web API authentication flow
+- User journey from landing page to Spotify login and authenticated pages
+- Reusable layout component structure
+- Bootstrap-based responsive page layout
+- Deployment-oriented scripts for build/start workflows
 
+## Technology Stack
+
+- React
+- Next.js
+- JavaScript
+- Express
+- Node.js
+- Spotify Web API
+- Bootstrap
+- Webpack / Next build workflow
+
+## Why This Project Matters
+
+This project demonstrates transferable front-end interface skills for roles involving:
+
+- API-backed web interfaces
+- User authentication flows
+- Client-side routing and page structure
+- Responsive UI delivery
+- JavaScript application development
+- Data-driven user journeys
+
+## Local Setup
+
+```bash
+npm install
+npm run dev
 ```
+
+Then open:
+
+```text
+http://localhost:8080
+```
+
+## Available Scripts
+
+```bash
+npm run dev
 npm run build
-heroku create
-git push heroku master
-heroku open
+npm start
 ```
 
-## View a LIVE example of this app
+## Project Structure
 
-[spotifyNext](https://spotify-next.herokuapp.com/)
+```text
+components/     Reusable layout and header components
+constants/      API configuration constants
+pages/          Next.js pages and routed views
+server.js       Express server wrapping the Next.js app
+package.json    Project dependencies and scripts
+```
 
-## Built With
+## Notes
 
-* [React](https://reactjs.org/) - For UI views and client side routing
-* [Next](https://github.com/zeit/next.js) - Next.js for server side rendering
-* [Node](https://nodejs.org/en/) - For server
-* [Webpack](https://webpack.js.org/) - For dependency bundling
-* [Express](https://expressjs.com/) - Node server framework
-* [Bootstrap 4](https://v4-alpha.getbootstrap.com/) - For styling
-* [Spotify Web API](https://beta.developer.spotify.com/) - Spotify Web API
+This is an older training project, so dependency versions reflect the original build environment. The project remains useful as evidence of React, Next.js, Express and API integration foundations.
 
+## Repository Owner
 
-## License
-
-This project is licensed under the MIT License 
+Meisi Xu  
+GitHub: https://github.com/kate666kate
